@@ -1,0 +1,84 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .navigation-bar .navigation-items {
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
+        align-items: flex-start;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .navigation-bar .nav-name img {
+        display: none;
+    }
+
+    .history {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .history .title {
+        padding: 10px 0 30px 0;
+    }
+
+    .history-details>ul {
+        padding: 30px 20px;
+    }
+
+    .history-details ul .history-details-item {
+        padding-bottom: 30px;
+    }
+
+    .hobbies-section .hobby-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .hobbies-section .hobby-list .hobby-item {
+        width: 100px;
+        height: 100px;
+    }
+
+    .skill {
+        margin-bottom: 20px;
+    }
+
+    .award-certificate .cerificate-section {
+        display: grid;
+        flex-direction: column;
+    }
+
+    .award-certificate .cerificate-item {
+        flex-direction: column;
+        border-bottom: 2px solid orange;
+        padding: 5px;
+    }
+
+    .award-certificate .cerificate-item img {
+        margin: auto;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .project .project-items .project-name{
+        padding-top: 10px;
+        margin: 10px 0px;
+    }
+
+    .project .project-items .project-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .project .project-items .project-info >*{
+        margin: 5px;
+    }
+
+}
